@@ -105,15 +105,32 @@
                 <div class="markdown">
                     {{ .Content }}
                 </div>
-                {{ if .Site.Params.home.localTime }}
-                <p>{{ i18n "index_currentTime" . }} <span id="time" data-time-zone="{{ .Site.Params.home.timeZone }}" data-time-format="{{ .Site.Params.home.timeFormat }}"></span>.</p>
-                {{ end }}
-                {{ with .Site.Params.email }}
+                <!-- {{ with .Site.Params.email }}
                 <h3 class="subtitle is-3 has-text-centered top-pad">
                     <a href="mailto:{{ . }}">{{ . }}</a>
                 </h3>
-                {{ end }}
+                {{ end }} -->
                 {{ partial "home/social.html" . }}
+                <hr>
+                <form id="contact-form" name="contact" method="POST" data-netlify="true" class="formulaire">
+                    <div class="form-group">
+                        <input type="text" placeholder="Votre prénom" class="form-control" name="nom" id="nom">   
+                    </div>
+                    <div class="form-group">
+                        <input type="email" placeholder="Votre email" class="form-control" name="email" id="email">
+                    </div>
+                    <div class="form-group">
+                        <input type="text" placeholder="Sujet" class="form-control" name="sujet" id="sujet">   
+                    </div>
+                    <div class="form-group">
+                        <textarea rows="6" placeholder="Message" class="form-control" name="message"
+                        id="message"></textarea>
+                    </div>
+                    <div class="form-group">
+                      <button type="submit" class="btn btn-transparent">Envoyer</button>
+                    </div>
+                </form>
+                  
             </div>
             <!-- End Contact container -->
             {{ partial "top-icon.html" . }}

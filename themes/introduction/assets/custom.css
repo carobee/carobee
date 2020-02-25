@@ -1,0 +1,33 @@
+.formulaire .form-control {
+    /* background-color: transparent; */
+    border-radius: 0;
+    color: #00b8d4;
+    border: 1px solid rgba(236, 239, 241, 1);
+  }
+  
+  .formulaire .form-control:focus
+  {
+    border-color: none;
+    box-shadow: none;
+  }
+
+  .formulaire input, .formulaire textarea, .formulaire button  {
+      padding:10px;
+      margin: 5px;
+      width: 300px;
+  }
+  .formulaire ::placeholder {
+      color: #000;
+  }
+  .formulaire input:hover,
+  .formulaire textarea:hover,
+  .formulaire button:hover {
+    border-color: #00b8d4;
+  }
+  
+.formulaire button {
+    border: 1px solid rgba(236, 239, 241, 1);
+    background: #00b8d4;
+    margin: 0;
+  }
+  
