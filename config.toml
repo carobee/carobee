@@ -57,6 +57,6 @@ theme = "introduction"
         icon  = "twitter" # icon name without the 'fa-'
         icon_pack = "fab"
     [[params.social]]
-        url   = "https://www.instagram.com/carobee31//"
+        url   = "https://www.instagram.com/carobee31"
         icon  = "instagram" # icon name without the 'fa-'
         icon_pack = "fab"
