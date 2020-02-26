@@ -1,4 +1,4 @@
-baseURL = "https://www.carobee.com/"
+baseURL = "www.carobee.com/"
 languageCode = "fr-fr"
 title = "CaroBee | Développeur web"
 theme = "introduction"
