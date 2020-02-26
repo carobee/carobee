@@ -1,4 +1,4 @@
-baseURL = "http://carobee.com/"
+baseURL = "carobee.netlify.com"
 languageCode = "fr-fr"
 title = "CaroBee | Développeur web"
 theme = "introduction"
