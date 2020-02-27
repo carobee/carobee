@@ -38,8 +38,8 @@ theme = "introduction"
     # Icon pack "fas" includes solid style icons, see: https://fontawesome.com/icons?d=gallery&s=solid&m=free
     [[params.social]]
         url   = "http://cv.carobee.com"
-        icon  = "poll-h" # icon name without the 'fa-'
-        icon_pack = "fab"
+        icon  = "info-circle" # icon name without the 'fa-'
+        icon_pack = "fas"
     [[params.social]]
         url   = "https://www.linkedin.com/in/carobee/"
         icon  = "linkedin-in" # icon name without the 'fa-'
