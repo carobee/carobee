@@ -1,12 +1,10 @@
 ---
-title: "About"
+title: "À propos"
 image: "photo.jpg"
 weight: 0
 ---
 
-Caroline Boulanger | Développeur web (Toulouse)
-
-### Features
+## Caroline Boulanger | Développeur web (Toulouse)
 
 * Développeur web Back-end, Front-end
 * Intégrateur

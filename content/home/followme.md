@@ -1,10 +1,8 @@
 ---
-title: "Follow Me"
+title: "Suivez-moi"
 image: "profile.jpg"
 weight: 1
 ---
-
-### Suivez-moi :
 
 * Mon CV sur Doyoubuzz : [http://cv.carobee.com](cv.carobee.com)
 * Profil Viadeo : [http://www.viadeo.com/fr/profile/caroline.boulanger4](http://www.viadeo.com/fr/profile/caroline.boulanger4)
